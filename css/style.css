@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  color: black;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #ffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  margin-top: 20px;
+  height: 40px;
+}
+
+.menu {
+  background-color: #f2f2f2;
+  position: fixed;
+  margin-left: -40px;
+  width: 120%;
+}
+
+.menu li {
+  float: left;
+  list-style-type: none;
+  color: black;
+}
+
+.menu li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section:hover {
+  background-color: #111;
+  color: white;
+}
+
+.active {
+  background-color: #111;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  padding-top: 30px;
+  height: 150px;
+  margin-top: 120px;
+  /* Used in this example to enable scrolling */
+}
+
+.logo {
+  padding: 10px;
+}
+
+.col-sm-8 {
+  float: right;
+  width: auto;
+}
+
+.top-header-section {
+  display: inline;
+  padding: 10px;
+  border-right: solid #f2f2f2;
+  height: 30px;
+  top: 30px;
+}
+
+.inline-div {
+  display: inline;
+  margin-left: 10px;
+}
+
+.inline-div-dark-border {
+  display: inline;
+  padding: 0 10px;
+  border-right: solid #000000;
+  border-width: thin;
+}
+
+.inline-div-dark-border a {
+  text-decoration: underline;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+}
+
+#footer-content {
+  height: 300px;
+}
+
+#ubs-information {
+  float: left;
+  margin: 15px;
+}
