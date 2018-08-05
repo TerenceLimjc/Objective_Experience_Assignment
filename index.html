@@ -39,6 +39,7 @@
   <body>
 
     <header class="header">
+
       <div class="navbar">
         <div class="col-sm-4">
           <div class="logo">
@@ -65,33 +66,23 @@
           </div>
         </div>
       </div>
+
       <div class="menu" id="menuDiv">
         <ul>
           <li><a class="section active" href="#home">Quotes</a></li>
           <li><a class="section" href="#news">Investment views</a></li>
         </ul>
       </div>
+
     </header>
 
     <section class="main">
-      <div class="col-2">
-        <table class="vertical-menu-images">
+
+      <div class="col-2" style="padding-right:2em;">
+
+        <table style="float:right;width:80%">
           <tr>
-            <td><img src="img/search.png" height="50%"></td>
-          </tr>
-          <tr>
-            <td><img src="img/pie_chart.png" height="50%"></td>
-          </tr>
-          <tr>
-            <td><img src="img/news.png" height="50%"></td>
-          </tr>
-          <tr>
-            <td><img src="img/information.png" height="50%"></td>
-          </tr>
-        </table>
-        <table class="vertical-menu">
-          <tr>
-            <th>Markets</th>
+            <th style="padding:10px">Markets</th>
           </tr>
           <tr>
             <td class="active"><a href="#" class="active">Market overview</a></td>
@@ -112,7 +103,7 @@
             <td><a href="#">Commodities</a></td>
           </tr>
           <tr>
-            <th>Investment product</th>
+            <th style="padding:10px">Investment product</th>
           </tr>
           <tr>
             <td><a href="#">Funds</a></td>
@@ -130,44 +121,595 @@
             <td><a href="#">Precious metals</a></td>
           </tr>
         </table>
+        <table class="side-options" style="float:right;width:20%;position:relative;left:.5em;">
+          <tr>
+            <td><img src="img/search.png"></td>
+          </tr>
+          <tr>
+            <td><img src="img/pie_chart.png"></td>
+          </tr>
+          <tr>
+            <td><img src="img/news.png"></td>
+          </tr>
+          <tr>
+            <td><img src="img/information.png"></td>
+          </tr>
+        </table>
+
       </div>
+
       <div class="col-5">
+
         <p style="font-size:40px;border-bottom:solid thin #d0d0d0;padding-bottom:20px;"><i style="color:#E60000;">Market</i> overview</p>
+
         <div style="border-bottom:solid medium black; overflow:hidden;">
           <i class="fa fa-minus" style="border: solid thin #d0d0d0;padding: 5px;background-color: #d0d0d0 ;float: left;"></i>
           <ul class="list-unstyled" style="float: right;margin-bottom:0;">
-            <li class="li-inline bold">USD/JPY</li>
+            <li class="li-inline"><b>USD/JPY</b></li>
             <li class="li-inline turqoise">+0.11%<img src="img/arrow_up_blue.png " height="30px " style="padding-bottom:5px;"></li>
-            <li class="li-inline bold">112.36</li>
+            <li class="li-inline"><b>112.36</b></li>
           </ul>
         </div>
+
         <div>
           <img src=" img/map_partial.png " width="100% ">
         </div>
+
         <div>
-          <button type="button" class="active">World</button>
-          <button type="button">Europe</button>
-          <button type="button">Asia</button>
+          <button class="button active">World</button>
+          <button class="button">Europe</button>
+          <button class="button">Asia</button>
           <img src="img/map_range.png " height="20px " style="float:right;">
         </div>
-        <div class="user-view-functions">
-          <div>
-            <!--Add missing menu here-->
-            <div>
-              <p>Test</p>
+
+        <div id="user-view-functions">
+          <div class="user-view-functions">
+            <ul>
+              <li style="height:80%;float:left;background-color:white;"><a href="#" style="position:relative;top:0.5em;">Equity markets</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down" style="position:relative;top:0.5em;font-size:15px;"></i><br>
+                <p style="margin:0;height:20%;display:inline;font-size:10px;float:left;position:relative;top:0.5em;">Nbokul 229</p>
+              </li>
+              <li><a href="#" style="position:relative;top:0.5em;">Virtual portfolios</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down" style="font-size:15px;position: relative;top:0.5em;"></i><br>
+              </li>
+              <li style="float:right;border-right:none;border-left:solid thin #e0e0e0;">
+                <image src="img/arrow_next.png" height="35em">
+              </li>
+              <li style="float:right;">
+                <section style="float:right">
+                  <image src="img/options_light.png" height="30em">
+                </section>
+                <section style="float:right">
+                  <image src="img/options_dark.png" height="30em">
+                </section>
+              </li>
+            </ul>
+          </div>
+          <div id=" equity-market-overview-highlights " style="display:flex; width:100%;margin: 1vw 0; ">
+            <div class="col-5 " style="height:auto;padding-top:0px;display:flex;border-right:solid thin #d0d0d0;border-bottom:solid thick #894D42;padding-right:15px; ">
+              <section style="position:relative;width:65%;display:inline-block;float:left;margin-bottom:1.5em ">
+                <i class="fa fa-arrow-down " style="top:0.5vw;padding:0.5vw;position:relative;width:auto ;color:#894D42;font-size:3vw;display:inline;float:left; "></i>
+                <p style="position:relative;width:auto;font-size:1vw;display:inline;float:left; "><b style="font-size:2vw;color:black; ">Nikkei 225<br>20'255.59</b> JPY</p>
+              </section>
+              <section style="position:relative;width:35%;height:7.5vw;display:inline-block; ">
+                <p style="color:#a0a0a0;font-size:1vw;text-align:right;position:relative;bottom:-3vw; "><b style="color:#894D42;font-size:2vw; ">-0.37%<br></b>27.09.2017 12:48</p>
+              </section>
+            </div>
+            <div class="col-5 " style="padding-top:0px;display:flex;border-bottom:solid thick #d0d0d0;height:auto; ">
+              <section style="position:relative;width:20%;padding:0 10px;justify-content:space-between; ">
+                <button class="button " style="font-size:1vw;margin:.5vw 0vw;width:3vw;display:block; ">1D</button>
+                <button class="button " style="font-size:1vw;margin:.5vw 0vw;width:3vw;display:block; ">3D</button>
+                <button class="button " style="font-size:1vw;margin:.5vw 0vw;width:3vw;display:block; ">1M</button>
+                <button class="button " style="font-size:1vw;margin:.5vw 0vw;width:3vw;display:block; ">Max</button>
+              </section>
+              <section style="position:relative; width:80%;height:auto; ">
+                <img src="img/equity_markets_graph.png " style="float:right; width:100%; ">
+              </section>
+            </div>
+          </div>
+
+          <table id="equity-information " style="width:100%;margin-top:10px; ">
+            <tr>
+              <th class="turqoise " style="width:27% ">Name</th>
+              <th style="width:10% ">Price</th>
+              <th class="turqoise " style="width:15% ">Day chg.</th>
+              <th class="turqoise " style="width:19% ">Day chg %</th>
+              <th class="turqoise " style="width:10% ">YTD %</th>
+              <th class="turqoise " style="width:19% ">Research</th>
+            </tr>
+            <tr>
+              <td>Advantest</td>
+              <td>2'101</td>
+              <td>+57</td>
+              <td>
+                <div class="oval background-turqoise ">+2.78%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+6.76%</td>
+              <td><i class="fa fa-chevron-right " style="float:right;margin-right:1vw; "></i></td>
+            </tr>
+            <tr>
+              <td>AEON</td>
+              <td>1'663</td>
+              <td>+0.5</td>
+              <td>
+                <div class="oval background-turqoise ">+0.03%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+0.42%</td>
+              <td><i class="fa fa-chevron-right " style="float:right;margin-right:1vw; "></i></td>
+            </tr>
+            <tr>
+              <td>Ajinomoto Co. I</td>
+              <td>2'156.5</td>
+              <td>-29.5</td>
+              <td>
+                <div class="oval background-maroon ">-1.35%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-8.39%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Alps Electric</td>
+              <td>2'839</td>
+              <td>+25</td>
+              <td>
+                <div class="oval background-turqoise ">+0.89%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+0.46%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Amada HLDG</td>
+              <td>1'226</td>
+              <td>-14</td>
+              <td>
+                <div class="oval background-maroon ">-1.13%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-5.90%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>ANA HD</td>
+              <td>4'202</td>
+              <td>+3'779</td>
+              <td>
+                <div class="oval background-turqoise ">+893.38%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+33.48%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Aozora Bank</td>
+              <td>4'265</td>
+              <td>+3'832</td>
+              <td>
+                <div class="oval background-turqoise ">+884.99%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+3.27%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Asahi Glass</td>
+              <td>4'180</td>
+              <td>-55</td>
+              <td>
+                <div class="oval background-maroon ">-1.30%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-5.03%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Asahi Group HD</td>
+              <td>4'549</td>
+              <td>-41</td>
+              <td>
+                <div class="oval background-maroon ">-0.89%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>+23.28%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Asahi Kasei</td>
+              <td>1'373</td>
+              <td>-5</td>
+              <td>
+                <div class="oval background-maroon ">-0.36%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>+34.67%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Astellas Pharma</td>
+              <td>1'427</td>
+              <td>-19.5</td>
+              <td>
+                <div class="oval background-maroon ">-1.35%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-12.10%</td>
+              <td>
+                <div class="oval background-maroon " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-down "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Bridgestone</td>
+              <td>5'091</td>
+              <td>-25</td>
+              <td>
+                <div class="oval background-maroon ">-0.49%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-20.61%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Canon</td>
+              <td>3'823</td>
+              <td>+24</td>
+              <td>
+                <div class="oval background-turqoise ">+0.63%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+16.02%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Casio Computer</td>
+              <td>1'556</td>
+              <td>-13</td>
+              <td>
+                <div class="oval background-maroon ">-0.83%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-5.75%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Centr Japan Rai</td>
+              <td>19'900</td>
+              <td>-100</td>
+              <td>
+                <div class="oval background-maroon ">-0.50%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>+3.48%</td>
+              <td>
+                <div class="oval background-maroon " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-down "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Chiba Bank</td>
+              <td>786</td>
+              <td>-4</td>
+              <td>
+                <div class="oval background-maroon ">-0.51%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>+9.62%</td>
+              <td>
+                <div class="oval background-gray " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-right "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Chiyoda Corp</td>
+              <td>645</td>
+              <td>+15</td>
+              <td>
+                <div class="oval background-turqoise ">+2.38%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>-20.37%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Chiubu El</td>
+              <td>1'406</td>
+              <td>-29</td>
+              <td>
+                <div class="oval background-maroon ">-2.02%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-13.96%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Chugai Phamn</td>
+              <td>4'630</td>
+              <td>&plusmn;0</td>
+              <td>
+                <div class="oval background-gray ">&plusmn;0.00%<i class="fa fa-arrow-right "></i></div>
+              </td>
+              <td>+38.00%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Citizen Holding</td>
+              <td>775</td>
+              <td>+3</td>
+              <td>
+                <div class="oval background-turqoise ">+0.39%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+10.67%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>COMSYS Holdings</td>
+              <td>2'661</td>
+              <td>+5</td>
+              <td>
+                <div class="oval background-turqoise ">+0.19%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+24.29%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Concordia Fin G</td>
+              <td>5'476</td>
+              <td>-6.3</td>
+              <td>
+                <div class="oval background-maroon ">-1.49%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-2.67%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Credit Saison</td>
+              <td>2'224</td>
+              <td>+20</td>
+              <td>
+                <div class="oval background-turqoise ">+0.91%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+7.08%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Dai Nippon Prin</td>
+              <td>2'694</td>
+              <td>+1'313</td>
+              <td>
+                <div class="oval background-turqoise ">+95.08%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+16.62%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Dai-ichi Life H</td>
+              <td>1'982.5</td>
+              <td>+59</td>
+              <td>
+                <div class="oval background-turqoise ">+3.07%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>+1.88%</td>
+              <td>
+                <div class="oval background-gray " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-right "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Daichi Sankyo</td>
+              <td>2'546</td>
+              <td>-33</td>
+              <td>
+                <div class="oval background-maroon ">-1.28%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>+6.46%</td>
+              <td>
+                <div class="oval background-maroon " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-down "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Daikin Industri</td>
+              <td>11'205</td>
+              <td>-75</td>
+              <td>
+                <div class="oval background-maroon ">-0.66%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>+4.38%</td>
+              <td>
+                <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>Daiwa House Ind</td>
+              <td>3'862</td>
+              <td>-51/td>
+                <td>
+                  <div class="oval background-maroon ">-1.30%<i class="fa fa-arrow-down "></i></div>
+                </td>
+                <td>+20.84%</td>
+                <td>
+                  <div class="oval background-turqoise " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-up "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+                </td>
+            </tr>
+            <tr>
+              <td>Daiwa Secur</td>
+              <td>639.2</td>
+              <td>-10.8</td>
+              <td>
+                <div class="oval background-maroon ">-1.66%<i class="fa fa-arrow-down "></i></div>
+              </td>
+              <td>-2.27%</td>
+              <td>
+                <i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+            <tr>
+              <td>DeNa</td>
+              <td>2'496</td>
+              <td>+38</td>
+              <td>
+                <div class="oval background-turqoise ">+1.55%<i class="fa fa-arrow-up "></i></div>
+              </td>
+              <td>-2.27%</td>
+              <td>
+                <div class="oval background-gray " style="float:left;margin-left:1vw;border-radius:50%; "><i class="fa fa-arrow-right "></i></div><i class="fa fa-chevron-right " style="float:right;margin-right:1vw;margin-top:0.7vw; "></i>
+              </td>
+            </tr>
+          </table>
+          <div class="text-center " style="border-bottom: solid medium black; ">
+            <div class="pagination " style="margin:5px 0; ">
+              <a href="# ">1</a>
+              <a href="# ">2</a>
+              <a href="# ">3</a>
+              <a href="# ">4</a>
+              <a href="# ">5</a>
+              <a href="# ">6</a>
             </div>
           </div>
         </div>
+
+        <div style="padding-bottom:10vw;height:auto; ">
+          <div class="proper-menu " style="margin:20px 0px; ">
+            <ul>
+              <li style="padding:10px;font-weight:bold;background-color:white;border-left:solid medium #f0f0f0 ">Overview</li>
+              <li style="padding:10px;font-weight:bold; ">USD</li>
+              <li style="padding:10px;font-weight:bold; ">EUR</li>
+              <li style="padding:10px;font-weight:bold; ">GBP</li>
+              <li style="padding:10px;font-weight:bold; ">CHF</li>
+              <li style="padding:10px;font-weight:bold; ">JPY</li>
+              <li style="padding:10px;font-weight:bold; ">HKD</li>
+              <li style="padding:10px;font-weight:bold; ">SGD</li>
+              <li style="float:right;border-left:solid thin;border-right:none;padding:10px;font-weight:bold; ">More&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down "></i></li>
+          </div>
+          <section style="padding-bottom:10em;float:left;width:60%;height:auto; ">
+            <div style="width:100%;padding:10px;font-weight:bold;border-bottom:solid thin #f0f0f0;font-size:16px; ">Interest rates</div>
+            <table class="currency-overview " style="width:100% ">
+              <tr>
+                <th style="width:31%;text-align:center; ">Currency</th>
+                <th style="width:23%;text-align:center; ">3M</th>
+                <th style="width:23%;text-align:center; ">6M</th>
+                <th style="width:23%;text-align:center; ">1Y</th>
+              </tr>
+              <tr>
+                <td style="text-align:left; "><img src="img/flags/usa.png " height="18px ">&nbsp;&nbsp;&nbsp;USD</td>
+                <td style="text-align:center; ">1.32 %</td>
+                <td style="text-align:center; ">1.49 %</td>
+                <td style="text-align:center; ">1.77 %<i class="fa fa-chevron-right " </i></td>
+              </tr>
+              <tr>
+                <td style="text-align:left; "><img src="img/flags/euro.png " height="18px ">&nbsp;&nbsp;&nbsp;EURO</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.32 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.27 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.17 %<i class="fa fa-chevron-right " style="left:0.5em; "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:left; "><img src="img/flags/gbp.png " height="18px ">&nbsp;&nbsp;&nbsp;GBP</td>
+                <td style="text-align:center; ">0.32 %</td>
+                <td style="text-align:center; ">0.47 %</td>
+                <td style="text-align:center; ">0.71 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:left; "><img src="img/flags/chf.png " height="18px ">&nbsp;&nbsp;&nbsp;CHF</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.72 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.64 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.50 %<i class="fa fa-chevron-right " style="left:0.5em; "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:left; "><img src="img/flags/jpy.png " height="18px ">&nbsp;&nbsp;&nbsp;JPY</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.03 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.00 %</td>
+                <td style="text-align:center; ">0.71 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:left; "><img src="img/flags/hkg.png " height="18px ">&nbsp;&nbsp;&nbsp;HKD</td>
+                <td style="text-align:center; ">0.76 %</td>
+                <td style="text-align:center; ">0.96 %</td>
+                <td style="text-align:center; ">1.38 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:left; "><img src="img/flags/sgp.png " height="18px ">&nbsp;&nbsp;&nbsp;SGD</td>
+                <td style="text-align:center; ">1.12 %</td>
+                <td style="text-align:center; ">1.25 %</td>
+                <td style="text-align:center; ">1.37 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+            </table class="currency-overview " style="height:auto;width:100% ">
+          </section>
+          <section style="float:right;width:36%; ">
+            <div style="width:100%;padding:10px;font-weight:bold;border-bottom:solid thin #f0f0f0;font-size:16px; ">Government yields</div>
+            <table class="currency-overview " style="height:auto;width:100%; ">
+              <tr>
+                <th style="width:32%;text-align:center; ">2Y</th>
+                <th style="width:32%;text-align:center; ">5Y</th>
+                <th style="width:36%;text-align:center; ">10Y</th>
+              </tr>
+              <tr>
+                <td style="text-align:center; ">1.40 %</td>
+                <td style="text-align:center; ">1.80 %</td>
+                <td style="text-align:center; ">2.16 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.72 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.50 %</td>
+                <td style="text-align:center; ">0.24 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:center; ">0.44 %</td>
+                <td style="text-align:center; ">0.76 %</td>
+                <td style="text-align:center; ">1.33 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.85 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.51 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.07 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.16 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.12 %</td>
+                <td style="text-align:center;position:relative;right:0.2em; ">-0.00 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:center; ">0.67 %</td>
+                <td style="text-align:center; ">1.19 %</td>
+                <td style="text-align:center; ">1.53 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+              <tr>
+                <td style="text-align:center; ">1.17 %</td>
+                <td style="text-align:center; ">1.53 %</td>
+                <td style="text-align:center; ">2.09 %<i class="fa fa-chevron-right "></i></td>
+              </tr>
+            </table>
+          </section>
+        </div>
+
       </div>
+
       <div class=" col-3 ">
-        <div style="height:5%; ">
+
+        <div style="height:5%;">
           <div class="search-container ">
             <form>
-              <input type="text " placeholder="Search " name="search ">
+              <input style="padding: 6px;margin-top: 3px;font-size: 17px;border: none; " type="text " placeholder="Search " name="search ">
               <button type="submit "><i class="fa fa-search bg-white "></i></button>
             </form>
           </div>
         </div>
+
         <div class="side-display ">
           <div class="side-display-menu ">
             <ul>
@@ -322,7 +864,7 @@
               <td>56.44</td>
             </tr>
             <tr>
-              <td><img src="img/commodities/gas.png " height="20px " style="padding-right:10px; ">Natural Gas</td>
+              <td style="position:relative;left:0.4em;"><img src="img/commodities/gas.png " height="20px " style="position:relative;right:0.2em;padding-right:10px; ">Natural Gas</td>
               <td><img src="img/more_information.png " height="20px "></td>
               <td style="color:#894D42;font-weight:bold; ">-0.03%<img src="img/arrow_down_red.png " height="20px "></td>
               <td>2.918</td>
@@ -330,15 +872,51 @@
           </table>
         </div>
 
-        <!--Add last side display here-->
+        <div class="side-display-news" style="width:90%;float:right;">
+          <div class="user-view-functions" style="margin:0;">
+            <ul>
+              <li style="font-size:10px;height:80%;float:left;background-color:white;"><a href="#" style="position:relative;top:0.5em;font-size:12px;margin:0;">News</a>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down" style="position:relative;top:0.5em;font-size:15px;"></i><br>
+                <p style="margin:0;height:20%;display:inline;font-size:8px;float:left;position:relative;top:0.5em;">Equitines</p>
+              </li>
+              <li style="float:right;border-right:none;border-left:solid thin #e0e0e0;">
+                <image src="img/arrow_next.png" height="20em">
+              </li>
+            </ul>
+          </div>
+          <div style="padding:1em;font-size:inherit;font-weight:bold;border-bottom:solid medium black">Latest news
+          </div>
+          <table>
+            <tr>
+              <td style="color:#c0c0c0"><b style="color:black">Global Markets Shrug Off Yellen's<br>Comments</b>&nbsp;27.09.2017 06:56 - DJ</td>
+              <td><i class="fa fa-chevron-right"></i></td>
+            </tr>
+            <tr>
+              <td style="color:#c0c0c0"><b style="color:black">Global Equities Roundup: Market<br>Talk</b>&nbsp;27.09.2017 03:52 - DJ</td>
+              <td><i class="fa fa-chevron-right"></i></td>
+            </tr>
+            <tr>
+              <td style="color:#c0c0c0"><b style="color:black">Chinese Shares Flat Early Wednesday as Yuan<br>Fixed Lower -- Market<br>Talk</b>&nbsp;27.09.2017 03:52 - DJ</td>
+              <td><i class="fa fa-chevron-right"></i></td>
+            </tr>
+            <tr>
+              <td style="color:#c0c0c0"><b style="color:black">Hong Kong Shared up Slightly, Some Signs of<br>Stabilization - Market<br>Talk</b>&nbsp;27.09.2017 03:52 - DJ</td>
+              <td><i class="fa fa-chevron-right"></i></td>
+            </tr>
+            <tr>
+              <td style="color:#c0c0c0"><b style="color:black">computershare Too Bullish on US Mortgage<br>Servicing -- Market Talk</b>&nbsp;27.09.2017 03:43 - DJ</td>
+              <td><i class="fa fa-chevron-right"></i></td>
+            </tr>
+          </table>
+        </div>
 
       </div>
-      </div>
+
     </section>
 
     <footer id="footer ">
-      <div id="footer-content ">
-        <div id="ubs-information ">
+      <div id="footer-content">
+
+        <div id="ubs-info">
           <div class="inline-div-dark-border ">
             <a href="#home ">Information on UBS</a>
           </div>
@@ -355,23 +933,27 @@
             <a href="#home ">Cookies</a>
           </div>
         </div>
+
         <div style="float:left;margin:15px;padding:0 10px;width:auto; ">
           <p>Products and services in these webpages may not be available for residents of certain nations. Please consult the sales restrictions relating to the service in question for further information. The issuer ratings indicated in product documentations
             reflect the situation at the time of issuance and may be subject to changes during the lifetime of the product.</br>
             &copy; UBS 1998-2017. All rights reserved.</p>
         </div>
+
         <div style="float:left;margin:15px;padding:0 10px;width:auto; ">
           <p><u>Data source: SIX Financial Information and UBS</u><br> Unless explicitly provided otherwise, the exchange data and other quote related information may be displayed with a time delay of usually at least 15 minutes.<br>
             <u>Research in News</u></p>
         </div>
+
         <div style="float:left;margin:15px;padding:0 10px;width:100%; ">
           <a href="#home " style="text-decoration:underline; ">Live Help</a>
         </div>
+
       </div>
     </footer>
 
     <!-- Custom js -->
-    <script src="js/action.js "></script>
+    <script src="js/action.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
