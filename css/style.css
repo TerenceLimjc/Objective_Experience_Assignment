@@ -7,12 +7,41 @@ body a {
   color: black;
 }
 
+body a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+image {
+  margin: 0;
+  padding: 0;
+}
+
+.li-inline {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.turqoise {
+  color: #577A8A;
+}
+
 .header {
   overflow: hidden;
   background-color: #ffff;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .navbar {
@@ -21,10 +50,9 @@ body a {
 }
 
 .menu {
-  background-color: #f2f2f2;
+  background-color: #f0f0f0;
   position: fixed;
-  margin-left: -40px;
-  width: 120%;
+  width: 100%;
 }
 
 .menu li {
@@ -54,13 +82,40 @@ body a {
 .main {
   padding: 16px;
   padding-top: 30px;
-  height: 150px;
+  height: 1500px;
   margin-top: 120px;
+  display: block;
   /* Used in this example to enable scrolling */
 }
 
 .logo {
   padding: 10px;
+}
+
+.col-2 {
+  padding-top: 30px;
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+
+.col-3 {
+  padding-top: 30px;
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+.col-5 {
+  padding-top: 30px;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.col-5 button {
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .col-sm-8 {
@@ -71,7 +126,7 @@ body a {
 .top-header-section {
   display: inline;
   padding: 10px;
-  border-right: solid #f2f2f2;
+  border-right: solid #f0f0f0;
   height: 30px;
   top: 30px;
 }
@@ -92,13 +147,194 @@ body a {
   text-decoration: underline;
 }
 
+.vertical-menu-images {
+  float: left;
+  width: auto;
+  display: inline-block;
+  position: static;
+}
+
+.vertical-menu {
+  position: static;
+  width: auto;
+  float: left;
+  border-left: solid medium #d0d0d0;
+  display: inline-block;
+}
+
+.vertical-menu th {
+  padding: 9px;
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border-top: solid thin #d0d0d0;
+}
+
+.vertical-menu td {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-top: solid thin #d0d0d0;
+}
+
+.vertical-menu active a {
+  color: #ffffff;
+}
+
+.row-info-right {
+  float: right;
+}
+
+.search-container {
+  float: right;
+  border-bottom-style: solid;
+  width: 70%;
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  margin-top: 3px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 0;
+  margin-top: 3px;
+  background: inherit;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+.search-container button:hover {
+  background: #aaa;
+}
+
+.side-display {
+  position: static;
+  width: 95%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: right;
+}
+
+.side-display table {
+  float: right;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  width: inherit;
+  height: inherit;
+}
+
+.side-display table tr {
+  overflow: hidden;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-color: black;
+  width: inherit;
+}
+
+.side-display table tr:last-child {
+  border-bottom-width: medium;
+}
+
+.side-display table td {
+  font-size: 13px;
+  float: right;
+  width: inherit;
+  padding: 5px 0px;
+  padding-left: 18px;
+}
+
+.side-display table td:first-child {
+  float: left;
+  width: 40%;
+  padding-left: 0px;
+}
+
+.side-display table td img {
+  position: relative;
+  top: -2px;
+}
+
+.side-display-dropdown-menu {
+  background-color: #f0f0f0;
+  width: inherit;
+  float: right;
+}
+
+.side-display-dropdown-menu li {
+  float: inherit;
+  list-style-type: none;
+  color: black;
+  background-color: white;
+  border-left-style: solid;
+  border-left-width: thin;
+  vertical-align: middle;
+}
+
+.side-display-dropdown-menu li:first-child {
+  float: left;
+  border-style: none;
+  padding-left: 0px;
+}
+
+.side-display-dropdown-menu li a {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.side-display-menu {
+  background-color: #f0f0f0;
+  overflow: hidden;
+  width: inherit;
+  float: right;
+}
+
+.side-display-menu li {
+  float: right;
+  list-style-type: none;
+  color: black;
+  border-left-style: solid;
+  border-left-width: thin;
+  vertical-align: middle;
+}
+
+.side-display-menu li:first-child {
+  float: left;
+  border-style: none;
+  padding-left: 0px;
+}
+
+.side-display-menu li a {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.side-display-menu li a:hover, a:focus {
+  color: black;
+}
+
 #footer {
   position: absolute;
   width: 100%;
+  display: block;
 }
 
 #footer-content {
   height: 300px;
+  width: 100%;
 }
 
 #ubs-information {

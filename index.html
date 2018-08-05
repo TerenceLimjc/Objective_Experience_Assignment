@@ -73,55 +73,308 @@
       </div>
     </header>
 
-    <div class="main">
-      <div style="background-color:#9BCB3B;width:20%;float:left;height:100px;">
+    <section class="main">
+      <div class="col-2">
+        <table class="vertical-menu-images">
+          <tr>
+            <td><img src="img/search.png" height="50%"></td>
+          </tr>
+          <tr>
+            <td><img src="img/pie_chart.png" height="50%"></td>
+          </tr>
+          <tr>
+            <td><img src="img/news.png" height="50%"></td>
+          </tr>
+          <tr>
+            <td><img src="img/information.png" height="50%"></td>
+          </tr>
+        </table>
+        <table class="vertical-menu">
+          <tr>
+            <th>Markets</th>
+          </tr>
+          <tr>
+            <td class="active"><a href="#" class="active">Market overview</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Equities</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Benchmark bonds</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Interest rates</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Currencies</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Commodities</a></td>
+          </tr>
+          <tr>
+            <th>Investment product</th>
+          </tr>
+          <tr>
+            <td><a href="#">Funds</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Structure products</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Bonds</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">UBS FX & banknotes</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Precious metals</a></td>
+          </tr>
+        </table>
       </div>
-      <div style="background-color:#1AB99E;width:50%;float:left;height:100px;">
-      </div>
-      <div style="background-color:#F36F25;width:30%;float:left;height:100px;">
-      </div>
-    </div>
-
-    <footer id="footer">
-      <div id="footer-content">
-        <div id="ubs-information">
-          <div class="inline-div-dark-border">
-            <a href="#home">Information on UBS</a>
-          </div>
-          <div class="inline-div-dark-border">
-            <a href="#home">Terms of use</a>
-          </div>
-          <div class="inline-div-dark-border">
-            <a href="#home">Privacy Statement</a>
-          </div>
-          <div class="inline-div-dark-border">
-            <a href="#home">Report fraudulent mail</a>
-          </div>
-          <div style="display:inline;padding:0 10px;
-          text-decoration: underline;">
-            <a href="#home">Cookies</a>
+      <div class="col-5">
+        <p style="font-size:40px;border-bottom:solid thin #d0d0d0;padding-bottom:20px;"><i style="color:#E60000;">Market</i> overview</p>
+        <div style="border-bottom:solid medium black; overflow:hidden;">
+          <i class="fa fa-minus" style="border: solid thin #d0d0d0;padding: 5px;background-color: #d0d0d0 ;float: left;"></i>
+          <ul class="list-unstyled" style="float: right;margin-bottom:0;">
+            <li class="li-inline bold">USD/JPY</li>
+            <li class="li-inline turqoise">+0.11%<img src="img/arrow_up_blue.png " height="30px " style="padding-bottom:5px;"></li>
+            <li class="li-inline bold">112.36</li>
+          </ul>
+        </div>
+        <div>
+          <img src=" img/map_partial.png " width="100% ">
+        </div>
+        <div>
+          <button type="button" class="active">World</button>
+          <button type="button">Europe</button>
+          <button type="button">Asia</button>
+          <img src="img/map_range.png " height="20px " style="float:right;">
+        </div>
+        <div class="user-view-functions">
+          <div>
+            <!--Add missing menu here-->
+            <div>
+              <p>Test</p>
+            </div>
           </div>
         </div>
-        <div style="float: left;margin: 15px;padding: 0 10px;">
+      </div>
+      <div class=" col-3 ">
+        <div style="height:5%; ">
+          <div class="search-container ">
+            <form>
+              <input type="text " placeholder="Search " name="search ">
+              <button type="submit "><i class="fa fa-search bg-white "></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="side-display ">
+          <div class="side-display-menu ">
+            <ul>
+              <li><a href="#home ">Equity Indices</a></li>
+              <li><a href="#news "><img src="img/arrow_next.png " height="20px "></a></li>
+              <li><a href="#news "><img src="img/settings_gray.png " height="20px "></a></li>
+            </ul>
+          </div>
+          <table>
+            <tr>
+              <td><img src="img/stocks/nasdaq.png " height="20px " style="padding-right:10px; ">Nasdaq Comp</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.15%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>6'380.16</td>
+            </tr>
+            <tr>
+              <td><img src="img/stocks/euro.png " height="20px " style="padding-right:10px; ">Euro Stoxx 50</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.04%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>3'536.38</td>
+            </tr>
+            <tr>
+              <td><img src="img/stocks/ftse.png " height="20px " style="padding-right:10px; ">FTSE 100</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.21%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>7'285.74</td>
+            </tr>
+            <tr>
+              <td><img src="img/stocks/dax.png " height="20px " style="padding-right:10px; ">DAX</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:black;font-weight:bold; ">&plusmn;0.00% &nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td>6'380.16</td>
+            </tr>
+            <tr>
+              <td><img src="img/stocks/smi.png " height="20px " style="padding-right:10px; ">SMI</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.29%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>9'113.65</td>
+            </tr>
+            <tr>
+              <td><img src="img/stocks/nikkei.png " height="20px " style="padding-right:10px; ">Nikkei 225</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.37%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>20'225.5</td>
+            </tr>
+            <tr>
+              <td><img src="img/stocks/hang_seng.png " height="20px " style="padding-right:10px; ">Hang Seng</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.41%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>27'626.8</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="side-display ">
+          <div class="side-display-menu ">
+            <ul>
+              <li><a href="#home ">Exchange rates</a></li>
+              <li><a href="#news "><img src="img/arrow_next.png " height="20px "></a></li>
+              <li><a href="#news "><img src="img/settings_gray.png " height="20px "></a></li>
+            </ul>
+          </div>
+          <table>
+            <tr>
+              <td>EUR/USD</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.05%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>1.17885</td>
+            </tr>
+            <tr>
+              <td>USD/JPY</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.11%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>112.365</td>
+            </tr>
+            <tr>
+              <td>GBP/USD</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.18%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>1.3437</td>
+            </tr>
+            <tr>
+              <td>AUD/USD</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.20%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>0.7872</td>
+            </tr>
+            <tr>
+              <td>USD/CAD</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.09%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>1.23575</td>
+            </tr>
+            <tr>
+              <td>USD/CHF</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.15%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>0.9702</td>
+            </tr>
+            <tr>
+              <td>EUR/CHF</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.10%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>1.14372</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="side-display ">
+          <div class="side-display-menu ">
+            <ul>
+              <li><a href="#home ">Commodities</a></li>
+              <li><a href="#news "><img src="img/arrow_next.png " height="20px "></a></li>
+              <li><a href="#news "><img src="img/settings_gray.png " height="20px "></a></li>
+            </ul>
+          </div>
+          <table>
+            <tr>
+              <td><img src="img/commodities/gold.png " height="20px " style="padding-right:10px; ">Gold USD/OZ</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.06%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>1'294.71</td>
+            </tr>
+            <tr>
+              <td><img src="img/commodities/silver.png " height="20px " style="padding-right:10px; ">Silver USD/OZ</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.21%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>16.845</td>
+            </tr>
+            <tr>
+              <td><img src="img/commodities/platinum.png " height="20px " style="padding-right:10px; ">Platinum USD/OZ</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#577A8A;font-weight:bold; ">+0.43%<img src="img/arrow_up_blue.png " height="20px "></td>
+              <td>928.5</td>
+            </tr>
+            <tr>
+              <td><img src="img/commodities/pala.png " height="20px " style="padding-right:10px; ">Pala. USD/OZ</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.16%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>915.5</td>
+            </tr>
+            <tr>
+              <td><img src="img/commodities/oil.png " height="20px " style="padding-right:10px; ">WTI Oil</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.65%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>51.88</td>
+            </tr>
+            <tr>
+              <td><img src="img/commodities/oil.png " height="20px " style="padding-right:10px; ">Brent Crude Oil</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.98%<img src="img/arrow_down_red.png " height=" 20px "></td>
+              <td>56.44</td>
+            </tr>
+            <tr>
+              <td><img src="img/commodities/gas.png " height="20px " style="padding-right:10px; ">Natural Gas</td>
+              <td><img src="img/more_information.png " height="20px "></td>
+              <td style="color:#894D42;font-weight:bold; ">-0.03%<img src="img/arrow_down_red.png " height="20px "></td>
+              <td>2.918</td>
+            </tr>
+          </table>
+        </div>
+
+        <!--Add last side display here-->
+
+      </div>
+      </div>
+    </section>
+
+    <footer id="footer ">
+      <div id="footer-content ">
+        <div id="ubs-information ">
+          <div class="inline-div-dark-border ">
+            <a href="#home ">Information on UBS</a>
+          </div>
+          <div class="inline-div-dark-border ">
+            <a href="#home ">Terms of use</a>
+          </div>
+          <div class="inline-div-dark-border ">
+            <a href="#home ">Privacy Statement</a>
+          </div>
+          <div class="inline-div-dark-border ">
+            <a href="#home ">Report fraudulent mail</a>
+          </div>
+          <div style="display:inline;padding:0 10px; text-decoration: underline; ">
+            <a href="#home ">Cookies</a>
+          </div>
+        </div>
+        <div style="float:left;margin:15px;padding:0 10px;width:auto; ">
           <p>Products and services in these webpages may not be available for residents of certain nations. Please consult the sales restrictions relating to the service in question for further information. The issuer ratings indicated in product documentations
             reflect the situation at the time of issuance and may be subject to changes during the lifetime of the product.</br>
             &copy; UBS 1998-2017. All rights reserved.</p>
         </div>
-        <div style="float: left;margin: 15px;padding: 0 10px;">
+        <div style="float:left;margin:15px;padding:0 10px;width:auto; ">
           <p><u>Data source: SIX Financial Information and UBS</u><br> Unless explicitly provided otherwise, the exchange data and other quote related information may be displayed with a time delay of usually at least 15 minutes.<br>
             <u>Research in News</u></p>
         </div>
-        <div style="float: left;margin: 15px;padding: 0 10px;">
-          <a href="#home" style="position: absolute;float: left;margin: 15px;padding: 0 10px;text-decoration:underline;">Live Help</a>
+        <div style="float:left;margin:15px;padding:0 10px;width:100%; ">
+          <a href="#home " style="text-decoration:underline; ">Live Help</a>
         </div>
       </div>
     </footer>
 
     <!-- Custom js -->
-    <script src="js/action.js"></script>
+    <script src="js/action.js "></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
 
   </body>
 
